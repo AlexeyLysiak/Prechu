@@ -1,0 +1,79 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+*:last-child { 
+  margin-bottom: 0;
+}
+
+html {
+  background-color: #ffffff;
+  color: #909090;
+  font-family: 'Segoe WPN';
+  font-size: 16px;
+  line-height: 18px;
+}
+.wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 980px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+
+.logo {
+  display: inline-block;
+  max-width: 178px;
+  margin-right: 50px;
+}
+
+a {
+  color: #909090;
+  text-decoration: none;
+}
+
+a:hover {
+}
+
+img {
+  display: block;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: auto;
+}
+
+p,
+ul,
+ol,
+figure {
+  margin: 0 0 16px 0;
+}
+
+* + p,
+* + ul,
+* + ol * + figure {
+  margin-top: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 0.67em 0;
+}
+
+* + h1,
+* + h2,
+* + h3,
+* + h4,
+* + h5,
+* + h6 {
+  margin-top: 0.67em;
+}

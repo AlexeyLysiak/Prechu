@@ -1,0 +1,26 @@
+.button { 
+  display: inline-block;
+  padding: 11px;
+  color: #ffffff;
+  font-size: 22px;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  background-color: #5094f2;
+  cursor: pointer;
+}
+.button:hover { 
+  border: 1px solid #5094f2;
+  color: #5094f2;
+  background-color: #fff;
+}
+.section-hero .button:hover .icon:before { 
+  color: #5094f2;
+}
+@media screen and (min-width: 640px) and (max-width: 959px) {
+  .button { 
+    font-size: 31px;
+    line-height: 31px;
+    padding: 13px;
+    font-weight: normal;
+  }
+}
